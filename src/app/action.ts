@@ -5,7 +5,7 @@ import endent from "endent";
 
 const groq = createOpenAI({
   baseURL: 'https://api.groq.com/openai/v1',
-  apiKey: process.env.NEXT_PUBLIC_GROQ_API_KEY,
+  apiKey: process.env.GROQ_API_KEY,
 });
 
 const systemPrompt = endent`
