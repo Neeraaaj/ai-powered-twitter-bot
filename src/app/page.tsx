@@ -18,7 +18,7 @@ export default function Home() {
         <h1 className="font-extrabold text-4xl md:text-5xl slg:text-7xl lg:text-7xl text-center w-full lg:w-[90%] uppercase mx-auto mt-10 pb-2">
           CRAFT THE PERFECT TWITTER BIO IN SECONDS!
         </h1>
-        <p className="text-sm sm:text-base lg:text-lg text-accent">Just answer a few questions, and we'll generate a bio that captures who you are.</p>
+        <p className="text-sm sm:text-base lg:text-lg text-accent"> Just answer a few questions, and we&apos;ll generate a bio that captures who you are..</p>
       </div>
       <BioProvider>
         <UserInput />
